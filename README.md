@@ -1,5 +1,5 @@
 # Ex03 Time Table
-# Date:
+# Date:11/10/2025
 # AIM
 To write a html webpage page to display your slot timetable.
 
@@ -25,12 +25,17 @@ Execute the program using runserver command.
 # PROGRAM
 
 ````
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html >
 <head>
   <title>Slot Time Table</title>
   <style>
-    body {
+    body
+     {
+      background-image: url('Screenshot 2025-09-09 134858.png ');
+      background-repeat: no-repeat;
+      background-size: cover;
+
       font-family: Arial, sans-serif;
       text-align: center;
       margin: 20px;
@@ -55,12 +60,15 @@ Execute the program using runserver command.
     .highlight {
       background: rgb(255, 255, 255);
     }
+    tr, td {
+      background: rgb(234, 255, 0);
+    }
   </style>
 </head>
-    <img src="Screenshot 2025-09-28 160301.png" alt="Background Image" style="width:300px; margin-bottom:20px;">
+    <img src="Screenshot 2025-10-04 090044.png" alt="Background Image" style="width: 500px; margin-bottom:40px;">
     <h2>SLOT TIME TABLE - HARISH K (25013390)</h2>
   
-  <table>
+  <table border="3">
     <tr>
       <th>Day/Time</th>
       <th>Monday</th>
@@ -109,7 +117,7 @@ Execute the program using runserver command.
       <td >DS</td>
       <td >C PROGRAM</td>
       
-<table>
+<table border="3">
     <tr>
       <th>S. No.</th>
       <th>Subject Code</th>
@@ -132,13 +140,9 @@ Execute the program using runserver command.
     </tr>
      
   </table>
-
 ````
 # OUTPUT
-<img width="1493" height="1113" alt="Screenshot 2025-09-28 162145" src="https://github.com/user-attachments/assets/7a83dec5-4dce-4536-81ec-e0745751a901" />
-<img width="1495" height="1106" alt="Screenshot 2025-09-28 162209" src="https://github.com/user-attachments/assets/2a5b50ba-81f7-4d72-9339-a5856a41e342" />
-<img width="1322" height="884" alt="Screenshot 2025-09-28 162222" src="https://github.com/user-attachments/assets/8c1b9d48-b08f-48c0-9dfc-75149bdc9131" />
-<img width="1919" height="1135" alt="Screenshot 2025-09-28 162244" src="https://github.com/user-attachments/assets/e66e6e3b-ef73-47d1-ae33-61cf8b81950b" />
+ <img width="1919" height="1135" alt="Screenshot 2025-10-11 164654" src="https://github.com/user-attachments/assets/33fd1b5a-fc0c-4efe-8938-b7e7ca291800" />
 
 # RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
